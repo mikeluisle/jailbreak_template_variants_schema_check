@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mikeluisle-ragret_jd077"
+name = "mikeluisle-jailbreak_template_variants_schema_check"
 version = "0.1.0"
 description = "从样本里推断RAG 检索工程师·越狱模板的变体识别应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://mikeluisle.github.io"
-Repository = "https://github.com/mikeluisle/ragret_jd077"
-Issues = "https://github.com/mikeluisle/ragret_jd077/issues"
+Repository = "https://github.com/mikeluisle/jailbreak_template_variants_schema_check"
+Issues = "https://github.com/mikeluisle/jailbreak_template_variants_schema_check/issues"
 
 [project.scripts]
-ragret_jd077 = "ragret_jd077:main"
+jailbreak_template_variants_schema_check = "jailbreak_template_variants_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["ragret_jd077"]
+py-modules = ["jailbreak_template_variants_schema_check"]
